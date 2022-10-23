@@ -18,6 +18,8 @@
 		73DB073D2904656000631B57 /* Netology_IB_InstrumentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB073C2904656000631B57 /* Netology_IB_InstrumentsUITestsLaunchTests.swift */; };
 		73DB074A2904676F00631B57 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73DB07492904676F00631B57 /* ProfileView.xib */; };
 		73DB074C2904693700631B57 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB074B2904693700631B57 /* ProfileView.swift */; };
+		73DB074E29056FB600631B57 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DB074D29056FB600631B57 /* Profile.storyboard */; };
+		73DB07522905711B00631B57 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB07512905711B00631B57 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		73DB073C2904656000631B57 /* Netology_IB_InstrumentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netology_IB_InstrumentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		73DB07492904676F00631B57 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
 		73DB074B2904693700631B57 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		73DB074D29056FB600631B57 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		73DB07512905711B00631B57 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				73DB07272904656000631B57 /* Info.plist */,
 				73DB07492904676F00631B57 /* ProfileView.xib */,
 				73DB074B2904693700631B57 /* ProfileView.swift */,
+				73DB074D29056FB600631B57 /* Profile.storyboard */,
+				73DB07512905711B00631B57 /* SecondViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 			files = (
 				73DB074A2904676F00631B57 /* ProfileView.xib in Resources */,
 				73DB07262904656000631B57 /* LaunchScreen.storyboard in Resources */,
+				73DB074E29056FB600631B57 /* Profile.storyboard in Resources */,
 				73DB07232904656000631B57 /* Assets.xcassets in Resources */,
 				73DB07212904655E00631B57 /* Main.storyboard in Resources */,
 			);
@@ -268,6 +275,7 @@
 				73DB074C2904693700631B57 /* ProfileView.swift in Sources */,
 				73DB071E2904655E00631B57 /* ViewController.swift in Sources */,
 				73DB071A2904655E00631B57 /* AppDelegate.swift in Sources */,
+				73DB07522905711B00631B57 /* SecondViewController.swift in Sources */,
 				73DB071C2904655E00631B57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
