@@ -20,6 +20,7 @@ class ProfileView: UIView {
     @IBOutlet weak var nameTextView: UITextView!
     
     
+    
     override init(frame: CGRect) {
         super.init (frame: frame)
         self.commonInit ()
